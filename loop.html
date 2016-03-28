@@ -1,0 +1,42 @@
+
+<script>
+var a =0;
+var b = 1;
+var c;
+
+for(var i = 2; i< 10;i++)
+{
+c= a +b;
+a =b;
+b=c;
+
+console.log(c);
+}
+
+
+
+
+
+var string = "PEEP";
+for(var i = 0; i <string.length; i++){
+if(string==string.split('').reverse().join('')){
+	console.log("The string is palindrome");
+}
+else{
+	console.log("The string is not palindrome");
+}
+
+
+
+}
+
+
+var string = " My name is Kiran. I am the trainer. I do the trainings on javascript, jquery and javascript";
+var count = 0;
+for(var i = 0; i <string.length; i ++){
+if(string.split(" ")=="the"){
+	count = count+1;
+}
+}
+console.log(count);
+</script>

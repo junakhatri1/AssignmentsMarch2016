@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTMLAssignment</title>
+</head>
+<body>
+<h1>Create a webpage with same output as shown in image</h1>
+<table style="border-style: double;"><tr>
+<th style="border-style: double">Form Below</th> 
+<th style="border-style: double">Image and List</th>
+	</tr>
+	 
+		<td>
+		<form>
+		First Name: <input type = "text" name = "FirstName" ><br>
+		Last Name:<input type = "text" name = "LastName"><br>
+
+		<textarea style="width: 250px; height: 150px"> Lets put something as default value </textarea><br><br>
+		 <label><b>Please select your gender</b></label><br>
+		Male:<input type="radio" value="male"><br>
+		Female:<input type="radio" value="female"><br>
+		other:<input type="radio" value="other"><br>
+
+
+		<fieldset>
+		<legend>Lemme group your personal preferences separately</legend><br>
+		<b>I want to know your hobbies</b><br>
+		Travelling<input type="checkbox" value="Travelling">
+		Partying<input type="checkbox"value ="Partying">
+		Reading<input type="checkbox"value ="Reading"><br>
+
+		<b>Lets know your current expression</b><br>
+		<select name="Expression">
+			<option value="Smile">Smile</option>
+			<option value = "happy">Happy</option>
+			<option value = "sad">Sad</option>
+			<option value = "angry">Angry</option>
+			<option value = "jealous">Jealous</option>
+			</select>
+			</fieldset>
+
+			<input type="submit" value="MySubmit">
+</td>
+
+</form>
+
+
+<td>
+<img src="image.jpg" style ="width:150px; height:75px">
+<p style="background-color: orange">See the list of languages and frameworks as their sub categories</p>
+Framework also have categories
+	
+	<ul>
+	<li>PHP</li>
+	<ul><li> YII Framework</li></ul>
+
+<li>Javascript</li>
+		<ul><li>Angular JS</li>
+			<li>Backbone JS</li>
+			<ul><li>Marionettejs</li>
+				<li> Thorax</li>
+
+			</ul>
+
+		</ul>
+
+<li>Python</li>
+<ul><li>Django</li></ul>
+
+</ul>
+
+
+</td>
+
+</table>
+
+
+</body>
+</html>
